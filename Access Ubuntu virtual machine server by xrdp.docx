@@ -1,0 +1,30 @@
+##Access Ubuntu virtual machine server by xrdp!!
+
+First create Ubuntu virtual machine 
+then access vm from shell by ssh private key or password
+
+after access run commands one by one
+“sudo apt update”
+“sudo DEBIAN_FRONTEND=noninteractive apt-get -y install xfce4”
+“sudo apt install xfce4-session”
+
+Install and configure a remote desktop server
+Run commands
+“sudo apt-get -y install xrdp”
+“sudo systemctl enable xrdp”
+
+
+On Ubuntu 20, you need to give certificate access to an xrdp user
+sudo adduser xrdp ssl-cert
+
+Tell xrdp what desktop environment to use when you start your session 
+
+echo xfce4-session >~/.xsession 
+
+Restart the xrdp service for the changes to take effect.
+
+sudo service xrdp restart 
+
+
+Connect your Linux VM with a Remote Desktop client.
+

@@ -1,0 +1,23 @@
+##How to host basic website on Ubuntu server!!
+
+First create an Ubuntu server virtual machine through portal
+then connect this server through SSH using power shell
+using command ssh -i ~/downloads/machine1.pem azureuser@20.198.8.176 
+now we connected to machine1
+
+after that update the machine1 using command sudo apt-get update
+
+then install apache server on that machine using command sudo apt install apache2
+
+Then go to browser enter the IP address of machine1 server it will looks like this.
+
+
+Now we have to go to the index folder to locate that page file.
+Using command cd /var/www/html/
+now we remove the page file sudo rm index.html
+Then we create a new page file sudo nano index.html
+
+this is how we edit the file and write a simple html code
+
+now again we enter the ip of machine1 IP on browser it look like this
+

@@ -1,0 +1,26 @@
+How to create virtual networks!!
+
+Go to portal then click on virtual networks then click on create
+
+after that fill the required information
+
+then click on review+create it will review your vnet and create it. It will automatically create the vnet in 2 minutes
+
+Creating virtual networks by power-shell
+type command new-azVirtualNetwork – name ”vnet2” -resourcegroup “vnet2”
+ by this command you can create a virtual network by power-shell.
+
+How to peer two virtual networks in same region!!
+
+Go to virtual networks click on peering then 
+
+Fill peering link name vnet-1-to-vnet-2 then select checkbox according to your choice
+Then fill remote peering link name vnet-2-to-vnet1-  then select checkbox according to your choice. Then click add.
+
+
+
+##How to peer two virtual networks in different region!!
+
+Same as the same region but you have to got different address spaces for different virtual 
+networks.
+

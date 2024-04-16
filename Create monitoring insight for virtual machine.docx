@@ -1,0 +1,13 @@
+Create monitoring insight for virtual machine!!
+
+First create a virtual machine 
+then go to monitor configure monitoring insight for virtual machine.
+Enable what you want to monitor 
+After configuration monitor the virtual machine by checking performance tab
+
+Monitor storage account!!
+
+First create storage account
+For monitoring go to monitoring select tab storage account
+then select storage account created 
+then monitor everything

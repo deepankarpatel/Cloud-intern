@@ -1,0 +1,7 @@
+##Creating loadbalancer and VM by backend pool!!
+Go to loadbalancer…
+create new
+define front end ip
+create loadbalancer
+define rules
+go to backend pool add virtual machines for load balancing

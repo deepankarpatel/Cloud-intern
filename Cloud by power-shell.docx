@@ -1,0 +1,27 @@
+##Create virtual machine by power shell!!
+
+First you have to login your Azure account on power-shell
+Open power-shell type command “Connect-AzAccount” it will redirect to chrome then click on your account it will login automatically.
+
+
+Then first you have to create a new resource group type command
+new-AzResourceGroup -name “VmThree” -location ”centralindia”
+
+
+Then type command new-AzVm -resourceGroup “VmThree” -name “VmThree” 
+-location “centralindia”
+
+It will ask for user id and password fill that detail then click enter
+
+
+
+##How to see created virtual machine and resource groups using power-shell!!
+Type Get-AzVm or for resource group type Get-AzResourceGroup
+it will show no. of VM and RG present on portal.
+
+
+how to remove virtual machine and resource group through power-shell!!
+Type command remove-azvm -name “vmThree” and 
+remove-azResourceGroup -name “vmThree”
+
+
