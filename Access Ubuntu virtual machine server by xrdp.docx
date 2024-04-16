@@ -1,3 +1,4 @@
+**
 ##Access Ubuntu virtual machine server by xrdp!!
 
 First create Ubuntu virtual machine 
@@ -23,6 +24,7 @@ echo xfce4-session >~/.xsession
 
 Restart the xrdp service for the changes to take effect.
 
+**
 sudo service xrdp restart 
 
 
