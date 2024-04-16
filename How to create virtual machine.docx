@@ -1,11 +1,32 @@
 What I learn?
 
 ##How to create a virtual machine by portal and connect through RDC!!
+How to create a virtual machine by portal and connect through RDC!!
 
 Go to Microsoft Azure portal Click on virtual machine...
 
-A window like this appear on screen then click on create. Another window will open
+A window will appear on screen then click on create. Another window will open
 Then fill the required information to create a virtual machine like region, memory, user id and password etc.
 Then click on Review+create, it will review your virtual machine for errors. If no error found it will take 2 minutes to create your virtual machine.
 To connect to this VM go to Microsoft remote desktop connection it will ask for public IP of VM. Fill that IP and click OK, then it ask for user id and password then hit enter
+
 it will connect you to virtual machine. 
+
+it will connect you to virtual machine. 
+
+Create virtual machine by power shell!!
+
+First you have to login your Azure account on power-shell
+Open power-shell type command “Connect-AzAccount” it will redirect to chrome then click on your account it will login automatically.
+
+Then first you have to create a new resource group type command
+new-AzResourceGroup -name “VmThree” -location ”centralindia”
+
+This command create a new resource group.
+
+Then type command new-AzVm -resourceGroup “VmThree” -name “VmThree” 
+-location “centralindia”
+
+It will ask for user id and password fill that detail then click enter
+
+It will create the virtual machine.
