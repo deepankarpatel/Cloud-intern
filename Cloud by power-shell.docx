@@ -25,3 +25,5 @@ Type command remove-azvm -name “vmThree” and
 remove-azResourceGroup -name “vmThree”
 
 
+Similarly you can remove virtual networks and resourceGroup
+by typing command remove-azResourceGroup -name "name of resourceGroup"
