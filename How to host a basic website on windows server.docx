@@ -1,0 +1,19 @@
+
+**
+First create a windows server virtual machine
+
+then access that virtual machine by RDP 
+
+Then open add and remove windows features or server manager to add reles and features
+
+and add Internet information service click OK
+
+then go to directory C:\inetpub\wwwroot find the file name iisstart
+
+edit this file by simple editor add your code 
+
+then run your vm ip address on browesr 
+
+this will show you website you created.
+
+**

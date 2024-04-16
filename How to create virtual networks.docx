@@ -1,3 +1,5 @@
+
+**
 How to create virtual networks!!
 
 Go to portal then click on virtual networks then click on create
@@ -24,3 +26,4 @@ Then fill remote peering link name vnet-2-to-vnet1-  then select checkbox accord
 Same as the same region but you have to got different address spaces for different virtual 
 networks.
 
+**

@@ -1,3 +1,5 @@
+
+**
 ##Create virtual machine by power shell!!
 
 First you have to login your Azure account on power-shell
@@ -27,3 +29,5 @@ remove-azResourceGroup -name “vmThree”
 
 Similarly you can remove virtual networks and resourceGroup
 by typing command remove-azResourceGroup -name "name of resourceGroup"
+
+**

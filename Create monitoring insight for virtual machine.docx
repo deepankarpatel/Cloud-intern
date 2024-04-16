@@ -1,3 +1,5 @@
+
+**
 Create monitoring insight for virtual machine!!
 
 First create a virtual machine 
@@ -11,3 +13,5 @@ First create storage account
 For monitoring go to monitoring select tab storage account
 then select storage account created 
 then monitor everything
+
+**

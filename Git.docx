@@ -1,0 +1,35 @@
+**
+
+Quick setup — using this code lines to setup your project on github
+
+…or create a new repository on the command line
+echo "# demo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/deepankarpatel/demo.git
+git push -u origin main
+
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/deepankarpatel/demo.git
+git branch -M main
+git push -u origin main
+
+
+…or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+or to update your project after some modification or to update files on github
+perform these commands
+
+git add . (this command add. all file to commit)
+
+git commit -m "some comment" (this command commit this changes)
+
+git push (this command push your code to github and update on github)
+
+
+**
