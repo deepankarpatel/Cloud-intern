@@ -4,19 +4,19 @@ Quick setup — using this code lines to setup your project on github
 
 …or create a new repository on the command line
 echo "# demo" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/deepankarpatel/demo.git
-git push -u origin main
+*git init
+*git add README.md
+*git commit -m "first commit"
+*git branch -M main
+*git remote add origin https://github.com/deepankarpatel/demo.git
+*git push -u origin main
 
 
 
 …or push an existing repository from the command line
-git remote add origin https://github.com/deepankarpatel/demo.git
-git branch -M main
-git push -u origin main
+*git remote add origin https://github.com/deepankarpatel/demo.git
+*git branch -M main
+*git push -u origin main
 
 
 …or import code from another repository
@@ -25,11 +25,24 @@ You can initialize this repository with code from a Subversion, Mercurial, or TF
 or to update your project after some modification or to update files on github
 perform these commands
 
-git add . (this command add. all file to commit)
+*git add . (this command add. all file to commit)
 
-git commit -m "some comment" (this command commit this changes)
+*git commit -m "some comment" (this command commit this changes)
 
-git push (this command push your code to github and update on github)
+*git push (this command push your code to github and update on github)
+
+*git status (to check the status of your file is added push or commit)
+
+*git pull (Pull the changes from github)
+
+*git branch "branch name" (create new branches)
+
+*git branch (to check in which branch are you in)
+
+*git checkout "name of branch" ( to go to new branch)
+
+
+
 
 
 **
