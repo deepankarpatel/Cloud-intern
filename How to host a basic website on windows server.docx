@@ -10,7 +10,7 @@ and add Internet information service click OK
 
 then go to directory C:\inetpub\wwwroot find the file name iisstart
 
-edit this file by simple editor add your code 
+edit this file by simple editor, add your html code save this file
 
 then run your vm ip address on browesr 
 
