@@ -1,0 +1,69 @@
+**
+Go to portal and click on storage account
+
+Click on create 
+
+Enter resource group name
+
+Enter storage account name  
+
+choose storage keeping unit
+
+click on review + create
+
+**
+
+CREATE STORAGE ACCOUNT BY POWERSHELL!!
+
+open power shell connect to your account 
+
+Enter command new-AzstorageAccount
+
+Enter resource group name
+
+Enter Storage account name 
+
+Enter Sorage keeping unit type
+
+Enter Location
+
+DONE!!
+
+**
+
+FILE UPLOAD!!
+
+Go to overview of Storage account
+
+Click on upload 
+
+choose file to upload
+
+Create or choose a container 
+
+tick on overwrite if existing
+
+then click on upload.
+
+**
+
+TO CHECK THE UPLOADED FILE!!
+
+CLick on storage browser 
+
+Then click on blob containers
+
+There click on the container you created to upload file 
+
+Then it will show you the files.
+
+Or you can download it
+
+**
+
+
+
+
+
+
+
