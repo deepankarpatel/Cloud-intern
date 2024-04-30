@@ -1,5 +1,5 @@
-Internship Learnings
--------
+INTERNSHIP LEARNING
+==========
 
 Summary
 ---
