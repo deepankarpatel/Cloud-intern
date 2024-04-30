@@ -1,4 +1,4 @@
-#### Internship Learnings
+## Internship Learnings
 
 # Summary
 
