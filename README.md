@@ -1,5 +1,6 @@
-###Internship Learnings
-##Summary
+<span style="font-size:0.5em;">Internship Learnings</span>
+
+Summary
 This repository documents my key learnings and projects during my internship. It serves as a reference for my future projects and endeavors.
 
 ##Topics Covered
