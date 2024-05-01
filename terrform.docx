@@ -1,0 +1,14 @@
+**
+terraform commands
+
+terraform init = This command is use to add or download necessary files
+
+terraform plan = to check for errors
+
+terraform apply = to apply the changes to platform
+
+terraform destroy = to destroy all the modules in the code
+
+terrform destroy -target name_of_target = this is use to destroy or delete a specific module in code 
+
+**
