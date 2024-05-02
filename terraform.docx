@@ -9,6 +9,8 @@ terraform apply = to apply the changes to platform
 
 terraform destroy = to destroy all the modules in the code
 
-terrform destroy -target name_of_target = this is use to destroy or delete a specific module in code 
+terrform destroy = target name_of_target = this is use to destroy or delete a specific module in code 
+
+terraform refresh = This command checks the letest state of your infrastructure and update stage file accordingly.
 
 **
