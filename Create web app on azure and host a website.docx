@@ -1,0 +1,28 @@
+**
+Go to azure Portal create web app using dotnet 
+
+then open vs code type command dotnet new mvc
+
+then type command dotnet run
+
+then open azure on vs code right click on web app 
+
+click on deploy to web app
+
+**
+
+Also you can deploy web app with git hub
+
+Goto deployment center click on code source 
+
+select github
+
+login to github
+
+select repo
+
+click on deploy
+
+it takes few menutes to deploy
+
+**
