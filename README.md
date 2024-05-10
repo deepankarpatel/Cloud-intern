@@ -13,6 +13,8 @@ Azure Services: I learned about various Azure services such as Azure Functions, 
 
 Version Control: I used Git for version control, including branching, merging, and collaborating with other team members.
 
+Terraform : This repository contains code and resources for learning Terraform, a tool for building, changing, and versioning infrastructure safely and efficiently.
+
 Future Goals
 ---
 I aim to further enhance my skills in Azure services, PowerShell scripting, and mobile app development to become a proficient software developer.
