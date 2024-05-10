@@ -26,4 +26,7 @@ resource "azurerm_lb" "My_lb" {
 
 }
 
+
+
+
 #this code will create a loadbalancer as well as a resource group and a public ip
