@@ -8,4 +8,4 @@ output "variable_value" {
 
 #this is a hello world program of list data type after running this program
 # it will ask you for value you have to enter the value in the form of list
-# for example ["hii", "hello", "how are you"] like this.
+# for example ["hii", "hello", "how are you"] like this. so it will give you output
