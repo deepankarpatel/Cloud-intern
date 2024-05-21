@@ -3,6 +3,11 @@ provider "azurerm" {
   }
 }
 
+variable "myNames" {
+  type = list
+  default = ["devLB", "ProLB", "ScaleLB"]
+}
+
 resource "azurerm_resource_group" "LoadGroup" {
   name     = "LoadBalancerRG"
   location = "Central india"
@@ -18,7 +23,7 @@ resource "azurerm_public_ip" "ipv4_ex" {
 }
 
 resource "azurerm_lb" "MyLB" {
-  name                = "LoadBalancer${count.index}"
+  name                = var.myNames[count.index]
   location            = azurerm_resource_group.LoadGroup.location
   resource_group_name = azurerm_resource_group.LoadGroup.name
   count = 3
@@ -31,7 +36,7 @@ resource "azurerm_lb" "MyLB" {
 }
 
 
-#this is example of count and count index in terraform
+#this is example of count and count index in terraform with vaiables
 #this code will create 3 different load balancers and 3 different public ip's with the help of count statement, it will run a loop 5 times
 #to create 5 differnet load balancer and with help of count index we names each load balancers different names
-#and alos it will associate each load balancer with frontend ip
+#with fetch from var.myName and alos it will associate each load balancer with frontend ip
