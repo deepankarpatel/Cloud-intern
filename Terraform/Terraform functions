@@ -1,0 +1,56 @@
+**
+Terraform Functions
+There are many functions in terraform to run this functions open terraform console and run them one by one for example some of the functions are:
+
+-The max function is give you the max value you define in the code
+max(10,20,14)
+output
+>20
+
+-The min function is opposite of max function it will give you the min value 
+min(10,20,40)
+output
+>10
+
+-The Split function is split the inputs in individual it has a separator and a string
+Split(separator, string)
+Split(",","foo, bar, baz")
+output
+>tolist([
+  "foo",
+  "bar",
+  "baz",
+
+-the lookup function retrieves the value of a single element from a map, given its key. If the given key does not exist, the given default value is returned instead. 
+lookup({a="ay", b="bee"}, "a", "what?")
+output
+>ay
+ 
+lookup({a="ay", b="bee"}, "p", "what is this behavior?")
+output
+>what is this behavior?
+
+Element retrieves a single element from a list. 
+element(["a", "b", "c"], 1)
+output
+>b
+
+element(["a", "b", "c"], 0)
+output
+>a
+
+element(["a", "b", "c"], 2)
+output
+>c
+
+-the file function reads the contents of a file at the given path and returns them as a string.
+file("${path.module}/hello.txt")
+output
+>Hello World
+
+-formatdate function converts the timestamp function to a different format and timestamp function is show you the current date and time 
+formatdate("DD MMM YYYY hh:mm ZZZ",timestamp())
+output
+>"22 May 2024 10:41 UTC"
+
+**
