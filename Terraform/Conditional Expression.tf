@@ -25,5 +25,5 @@ resource "azurerm_lb" "Prod" {
 
 /*
 In this code there is two loadbalancers dev and prod we use conditional expression to create the loadbalancer
-one by one. In this if the value is true the dev LB is created and if the value is false the prod LB is created
+one by one. In this if the value is true the dev LB is created and if the value is false the prod LB is created.
 */
