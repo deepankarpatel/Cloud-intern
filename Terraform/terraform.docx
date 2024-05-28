@@ -13,4 +13,8 @@ terrform destroy target name_of_target = this is use to destroy or delete a spec
 
 terraform refresh = This command checks the letest state of your infrastructure and update stage file accordingly.
 
+terraform fmt = set the format of the code in easy readable manner
+
+terraform validate = validate command is primarily check the file syntax are valid or not 
+
 **
