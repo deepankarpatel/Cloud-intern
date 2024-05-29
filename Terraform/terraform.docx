@@ -17,4 +17,6 @@ terraform fmt = set the format of the code in easy readable manner
 
 terraform validate = validate command is primarily check the file syntax are valid or not 
 
+terraform output resource_name - this command show you the output of resources
+
 **
