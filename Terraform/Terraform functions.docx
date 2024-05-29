@@ -53,5 +53,15 @@ formatdate("DD MMM YYYY hh:mm ZZZ",timestamp())
 output
 >"22 May 2024 10:41 UTC"
 
+-zipmap comstruct the list of map from a list of keys and a corresponding list of values
+zipmap(keyslist, valueslist)
+
+zipmap(["a", "b"], [1, 2])
+>output
+{
+"a" = 1,
+"b" = 2, 
+}
+
 These are some functions of terraform
 **

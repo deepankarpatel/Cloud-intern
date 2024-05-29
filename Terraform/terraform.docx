@@ -19,4 +19,6 @@ terraform validate = validate command is primarily check the file syntax are val
 
 terraform output resource_name - this command show you the output of resources
 
+terraform plan -refresh=flase -target=resource_name.local_name = Stop the refreshing processos in treeaform command and only plan for specific resource
+
 **
