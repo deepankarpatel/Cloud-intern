@@ -22,5 +22,6 @@ resource "azurerm_lb" "Load" {
   }
 }
 
-#this code is ignoring the manually added change to the loadbalancer with meta argument lyfecycle "ignore changes"
+#this code is ignoring the manually added change in the tags in the loadbalancer 
+#with meta argument lyfecycle "ignore changes"
 
