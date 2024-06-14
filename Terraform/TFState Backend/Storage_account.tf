@@ -22,3 +22,6 @@ resource "azurerm_storage_container" "tfstate" {
   storage_account_name  = azurerm_storage_account.tfstate.name
   container_access_type = "private"
 }
+
+
+#in this code we created a storage account with a unique name and also created a container 
