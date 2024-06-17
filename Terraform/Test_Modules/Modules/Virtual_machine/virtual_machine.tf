@@ -84,3 +84,10 @@ resource "azurerm_windows_virtual_machine" "v_machine" {
     version   = "latest"
   }
 }
+
+output "virtual_ip" {
+ value = {
+  
+  public_ip_address = azurerm_public_ip.myip.ip_address
+ }
+}

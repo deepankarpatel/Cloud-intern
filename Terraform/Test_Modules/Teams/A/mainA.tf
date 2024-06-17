@@ -7,3 +7,8 @@ module "virtul_machine" {
   username            = "cloud"
   password            = "cloud@1234567"
 }
+
+
+output "public_ip_address" {
+  value = module.virtul_machine.virtual_ip.public_ip_address
+}
