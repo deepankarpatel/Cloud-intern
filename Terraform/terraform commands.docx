@@ -1,24 +1,35 @@
 **
 terraform commands
 
-terraform init = This command is use to add or download necessary files
+terraform init      = This command is use to add or download necessary files
 
-terraform plan = to check for errors
+terraform plan      = to check for errors
 
-terraform apply = to apply the changes to platform
+terraform apply     = to apply the changes to platform
 
-terraform destroy = to destroy all the modules in the code
+terraform destroy   = to destroy all the modules in the code
 
 terraform destroy target name_of_target = this is use to destroy or delete a specific module in code 
 
-terraform refresh = This command checks the letest state of your infrastructure and update stage file accordingly.
+terraform refresh   = This command checks the letest state of your infrastructure and update stage file accordingly.
 
-terraform fmt = set the format of the code in easy readable manner
+terraform fmt       = set the format of the code in easy readable manner
 
-terraform validate = validate command is primarily check the file syntax are valid or not 
+terraform validate  = validate command is primarily check the file syntax are valid or not 
 
-terraform output resource_name - this command show you the output of resources
+terraform output resource_name = this command show you the output of resources
 
 terraform plan -refresh=flase -target=resource_name.local_name = Stop the refreshing processos in treeaform command and only plan for specific resource
 
 **
+
+Terraform State management
+
+Terraform State commands
+
+list         -List resources within terraform state file.
+Mv           -moves items within terraform state.
+pull         - Manually download and output the state from remote state.
+push         - Manually upload the local state file to remote state. 
+rm           - Remove items from terraform state.
+show         - show the attributes of a single resource in state.
