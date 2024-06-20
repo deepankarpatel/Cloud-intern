@@ -53,3 +53,5 @@ resource "azurerm_virtual_machine" "myvm" {
     write_accelerator_enabled = false
   }
 }
+
+#this is generted output by terraform generate-config-out command 

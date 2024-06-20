@@ -8,3 +8,4 @@ import {
   
 }
 
+#in this code we are importing manually created virtual machine in the terraform 
