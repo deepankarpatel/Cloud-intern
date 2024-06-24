@@ -21,6 +21,7 @@ terraform output resource_name = this command show you the output of resources
 
 terraform plan -refresh=flase -target=resource_name.local_name = Stop the refreshing processos in treeaform command and only plan for specific resource
 
+terraform login =  to login to terraform cloud
 **
 
 Terraform State management
